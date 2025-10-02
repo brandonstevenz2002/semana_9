@@ -4,6 +4,13 @@
     android:layout_height="match_parent"
     android:gravity="center">
 
+    <ImageView
+        android:id="@+id/HomeImage"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerInside"
+        android:src="@drawable/Home"/>
+
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
