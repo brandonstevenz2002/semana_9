@@ -1,0 +1,41 @@
+<EditText
+    android:id="@+id/editTextName"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:hint="Nombre"
+    android:inputType="textPersonName"
+    android:marginBottom="8dp" />
+
+<EditText
+    android:id="@+id/editTextPhone"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:hint="Teléfono"
+    android:inputType="phone"
+    android:marginBottom="8dp" />
+
+<EditText
+    android:id="@+id/editTextEmail"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:hint="Correo electrónico"
+    android:inputType="textEmailAddress"
+    android:marginBottom="8dp" />
+
+<EditText
+    android:id="@+id/editTextMessage"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:hint="Mensaje"
+    android:inputType="textMultiLine"
+    android:minLines="4"
+    android:gravity="top"
+    android:marginBottom="16dp" />
+
+<Button
+    android:id="@+id/buttonSend"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="Enviar"
+    android:backgroundTint="#6200EE"
+    android:textColor="#FFFFFF" />
