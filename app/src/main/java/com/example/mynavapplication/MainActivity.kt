@@ -4,6 +4,8 @@ import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
 import androidx.fragment.app.Fragment
 import com.example.mynavapplication.databinding.ActivityMainBinding
+import com.example.mynavapplication.ui.ContactFragment
+
 
 
 class MainActivity : AppCompatActivity() {
@@ -24,6 +26,7 @@ class MainActivity : AppCompatActivity() {
                 R.id.nav_home -> replaceFragment(HomeFragment())
                 R.id.nav_about -> replaceFragment(AboutFragment())
                 R.id.nav_services -> replaceFragment(ServicesFragment())
+                R.id.nav_contact -> replaceFragment(ContactFragment())
             }
             true
         }
