@@ -8,7 +8,7 @@ import android.widget.*
 import androidx.fragment.app.Fragment
 import com.example.mynavapplication.R
 
-class ContactFragment : Fragment() {
+class FontanFragment : Fragment() {
 
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
