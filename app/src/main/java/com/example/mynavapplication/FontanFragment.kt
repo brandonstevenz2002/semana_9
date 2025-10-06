@@ -14,7 +14,7 @@ class FontanFragment : Fragment() {
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
-        val view = inflater.inflate(R.layout.fragment_contact, container, false)
+        val view = inflater.inflate(R.layout.fragment_fontan, container, false)
 
         val name = view.findViewById<EditText>(R.id.editTextName)
         val phone = view.findViewById<EditText>(R.id.editTextPhone)
