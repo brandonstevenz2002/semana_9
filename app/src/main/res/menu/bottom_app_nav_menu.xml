@@ -12,6 +12,12 @@
         android:title="About"/>
 
     <item
+    android:id="@+id/nav_contact"
+    android:icon="@drawable/ic_contact" <!-- usa un ícono válido -->
+    android:title="Contacto" />
+
+
+    <item
         android:id="@+id/nav_services"
         android:icon="@android:drawable/ic_menu_manage"
         android:title="Services"/>
